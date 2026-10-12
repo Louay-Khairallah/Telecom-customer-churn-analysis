@@ -1,0 +1,16 @@
+column,missing_count,missing_percent
+Churn Category,5174,73.46
+Churn Reason,5174,73.46
+Offer,3877,55.05
+Online Security,1526,21.67
+Online Backup,1526,21.67
+Avg Monthly GB Download,1526,21.67
+Internet Type,1526,21.67
+Streaming Movies,1526,21.67
+Streaming TV,1526,21.67
+Device Protection Plan,1526,21.67
+Premium Tech Support,1526,21.67
+Unlimited Data,1526,21.67
+Streaming Music,1526,21.67
+Avg Monthly Long Distance Charges,682,9.68
+Multiple Lines,682,9.68

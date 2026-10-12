@@ -1,0 +1,31 @@
+Eligible Customers =
+CALCULATE(
+    COUNTROWS('telecom_customer_churn_cleaned'),
+    'telecom_customer_churn_cleaned'[Customer Status] IN {"Stayed", "Churned"}
+)
+
+Churned Customers =
+CALCULATE(
+    COUNTROWS('telecom_customer_churn_cleaned'),
+    'telecom_customer_churn_cleaned'[Customer Status] = "Churned"
+)
+
+Churn Rate =
+DIVIDE([Churned Customers], [Eligible Customers])
+
+Negative Monthly Charge Records =
+CALCULATE(
+    COUNTROWS('telecom_customer_churn_cleaned'),
+    'telecom_customer_churn_cleaned'[Monthly Charge] < 0
+)
+
+Tenure Band Sort =
+SWITCH(
+    'telecom_customer_churn_cleaned'[Tenure Band],
+    "0-6", 1,
+    "7-12", 2,
+    "13-24", 3,
+    "25-48", 4,
+    "49-72", 5,
+    "73+", 6
+)

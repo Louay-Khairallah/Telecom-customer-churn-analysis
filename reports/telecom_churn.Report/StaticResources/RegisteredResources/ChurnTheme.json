@@ -1,0 +1,130 @@
+{
+  "name": "Telecom Churn",
+  "dataColors": [
+    "#C4375B",
+    "#2F7F7A",
+    "#5F7280",
+    "#E0A458",
+    "#3E6FB0",
+    "#8E6BB0",
+    "#9BB2BD",
+    "#18232B"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#18232B",
+  "tableAccent": "#C4375B",
+  "good": "#2F7F7A",
+  "neutral": "#E0A458",
+  "bad": "#C4375B",
+  "maximum": "#C4375B",
+  "center": "#E8EDF0",
+  "minimum": "#2F7F7A",
+  "textClasses": {
+    "callout": {
+      "fontSize": 40,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#18232B"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#18232B"
+    },
+    "header": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#18232B"
+    },
+    "label": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#4C5B66"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#18232B"
+              }
+            },
+            "fontSize": 16,
+            "fontFamily": "Segoe UI Semibold",
+            "alignment": "left"
+          }
+        ],
+        "subTitle": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#4C5B66"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#EDF1F2"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#DDE4E8"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "value": [
+          {
+            "fontSize": 40,
+            "fontColor": {
+              "solid": {
+                "color": "#18232B"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "$id": "default"
+          }
+        ],
+        "label": [
+          {
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": "#4C5B66"
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "$id": "default"
+          }
+        ]
+      }
+    }
+  }
+}

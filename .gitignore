@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Power BI local cache
+**/.pbi/cache.abf
+
